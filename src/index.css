@@ -6,9 +6,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.timer-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  color: black;
+  background-image: url("/images/cloud-background.jpeg"); 
+  background-repeat: no-repeat;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding: 20px;
+}
+
+p {
+  padding: 17px 15px 0 15px;
+}
+
+.timer-face {
+  background: lightgray;
+  align-self: center;
+  text-align: center;
+}
+
+.buttons-container {
+  align-self: center;
+  width: 235px;
+  padding-top: 35px;
+}
+
+.start-stop-button {
+  display: flex;
+  justify-content: center;
+}
+
+.reset-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reset-button {
+  margin-top: 150px;
 }
